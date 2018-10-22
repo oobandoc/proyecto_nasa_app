@@ -1,0 +1,477 @@
+<?page title=".:. Instituto Tecnologico Superior Guayaquil .:." contentType="text/html;charset=UTF-8"?>
+
+
+<zk xmlns:h="http://www.w3.org/1999/xhtml">
+<style src="https://www.w3schools.com/w3css/4/w3.css"></style>
+<style src="https://fonts.googleapis.com/css?family=Raleway"></style>
+<style src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></style>
+<style src="https://fonts.googleapis.com/css?family=Tangerine"></style>
+
+
+<style src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+.w3-bottombar {
+    border-bottom: 6px solid #189AF3!important;
+}
+
+.carousel .item {
+  height: 400px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 350px;
+}
+
+body {
+	        border: 0 none !important;
+			margin: 0 !important;
+			 padding: 0 !important;
+			 background: #000B33;
+			 
+        }
+        
+        div.z-progressmeter {
+background:#00FF00
+}
+span.z-progressmeter-img {
+background:#F8271A
+}
+</style>
+<div width="100%" height="auto"  apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.itsg.IndexNasaControl')">
+	<!-- Sidebar/menu -->
+	<!-- <h:nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><h:br></h:br>
+	 	<div class="w3-container">
+		    <h:a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+		      <h:i class="fa fa-remove"></h:i>
+		    </h:a>
+		    <h:img src="common/images/itsg.jpg" style="width:45%;" class="w3-round"></h:img><h:br></h:br><h:br></h:br>
+		    <h:h4><h:b>PORTFOLIO</h:b></h:h4>
+		    <h:p class="w3-text-grey">Template by W3.CSS</h:p>
+		  </div>
+		  
+		  <div class="w3-bar-block">
+		    <h:a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><h:i class="fa fa-th-large fa-fw w3-margin-right"></h:i>PORTFOLIO</h:a> 
+		    <h:a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><h:i class="fa fa-user fa-fw w3-margin-right"></h:i>ABOUT</h:a> 
+		    <h:a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><h:i class="fa fa-envelope fa-fw w3-margin-right"></h:i>CONTACT</h:a>
+		  </div>
+		  
+		  <div class="w3-panel w3-large">
+		    <h:i class="fa fa-facebook-official w3-hover-opacity"></h:i>
+		    <h:i class="fa fa-instagram w3-hover-opacity"></h:i>
+		    <h:i class="fa fa-snapchat w3-hover-opacity"></h:i>
+		    <h:i class="fa fa-pinterest-p w3-hover-opacity"></h:i>
+		    <h:i class="fa fa-twitter w3-hover-opacity"></h:i>
+		    <h:i class="fa fa-linkedin w3-hover-opacity"></h:i>
+		  </div>
+	</h:nav>
+ -->
+ 
+ 
+ 	
+ 
+	<!-- Overlay effect when opening sidebar on small screens -->
+<h:div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></h:div>
+	
+	<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:20px;margin-right:50px;">
+
+  <!-- Header -->
+  <h:header id="portfolio">
+    <h:a href="#"><h:img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></h:img></h:a>
+    <h:span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><h:i class="fa fa-bars"></h:i></h:span>
+   <div align="center">
+   <h:br></h:br><h:br></h:br>
+    	 <image src="common/images/logo5.png" style="height:150px;" class="w3-round"></image>
+    	  <image src="common/images/nasa.jpg" style="margin-left:100px;height:150px;" class="w3-round"></image>
+    	  <div align="center">
+    	  	<h:p class="w3-jumbo" style="margin-left:100px;font-family: Tangerine, serif;color:plum;">Te Presentamos Planetario Monkey</h:p>
+    	  </div>
+    	
+    	
+    	
+    </div>
+    <iframe src="carrousel.html" width="100%" height="500px"></iframe>
+    <div >
+    
+    
+  		
+  
+  	
+   
+    <h:center>
+    <div class="w3-section w3-bottombar w3-padding-16" >
+      <h:span class="w3-margin-right" style="font-weight:bold;color:plum;">Categorias :</h:span> 
+      <h:button class="w3-button" style="background-color:#365ff4;color:white;" >Espacio Exterior</h:button>
+      <h:button class="w3-button w3-white"><h:i class="fa fa-diamond w3-margin-right"></h:i>Planetas</h:button>
+      <h:button class="w3-button w3-white w3-hide-small"><h:i class="fa fa-sun-o w3-margin-right"></h:i>Catastrofes</h:button>
+      <h:button class="w3-button w3-white w3-hide-small"><h:i class="fa fa-space-shuttle w3-margin-right"></h:i>Expediciones</h:button>
+      <h:button class="w3-button w3-white w3-hide-small"><h:i class="fa fa-rocket w3-margin-right"></h:i>Partners</h:button>
+    </div>
+    </h:center>
+    </div>
+  </h:header>
+  
+  
+  
+    <h:br></h:br>
+  
+  
+  
+  <h:br></h:br>
+   <h:br></h:br>
+  
+   <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom w3-margin-right image" style="border: 1px solid white;
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+    ">
+      <image  src="https://i.ytimg.com/vi/1UaBgr_sq9A/sddefault.jpg"  style="width:70%;    width: 100%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity" onClick="@command('cargarVideo',url='https://www.youtube.com/embed/1UaBgr_sq9A')"></image>
+   <h:div class="vjs-big-play-button" role="button" aria-live="polite" tabindex="0" aria-label="play video">
+        <h:span aria-hidden="true"></h:span>
+      </h:div>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Documental El espacio Exterior 1</h:b></h:p>
+        <h:p style="color:#123456;"><h:b>Por: Lorem Ipsum</h:b></h:p>
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      </div>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Guayaquil, Ecuador</h:b></h:p>
+       
+       </div>
+      <h:br></h:br>
+      <div class="w3-container w3-white" align="center">
+      	<progressmeter width="90%" value="50" />
+      </div>
+      <h:br></h:br>
+     
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom w3-margin-right" style="
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+    ">
+      <image popup="ctxModal"  src="https://i.ytimg.com/vi/GMDiL_DICeU/sddefault.jpg"  style="width:70%;    width: 100%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity" onClick="@command('cargarVideo',url='https://www.youtube.com/embed/GMDiL_DICeU')"></image>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p><h:b>Por: Oscar Obando Cruz</h:b></h:p>
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      </div>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Guayaquil, Ecuador</h:b></h:p>
+       
+       </div>
+      <h:br></h:br>
+      <div class="w3-container w3-white" align="center">
+      	<progressmeter width="90%" value="7" />
+      </div>
+      <h:br></h:br>
+      
+    </div>
+    <div class="w3-third w3-container w3-margin-right" style="border: 1px solid white;
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+   ">
+      <image popup="ctxModal"  src="https://i.ytimg.com/vi/Zsb-3C1ddC4/sddefault.jpg"  style="width:70%;    width: 100%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity" onClick="@command('cargarVideo',url='https://www.youtube.com/embed/Zsb-3C1ddC4')"></image>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p><h:b>Por: Roberto Poveda</h:b></h:p>
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      </div>
+       <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Guayaquil, Ecuador</h:b></h:p>
+       
+       </div>
+      <h:br></h:br>
+      <div class="w3-container w3-white" align="center">
+      	<progressmeter width="90%" value="30" />
+      </div>
+      <h:br></h:br>
+      
+    </div>
+    
+  </div>
+  
+    <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom w3-margin-right" style="border: 1px solid white;
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+    ">
+       <image popup="ctxModal"  src="https://i.ytimg.com/vi/AlyuSwRSVHU/sddefault.jpg"  style="width:70%;    width: 100%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity" onClick="@command('cargarVideo',url='https://www.youtube.com/embed/AlyuSwRSVHU')"></image>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p style="color:#123456;"><h:b>Por: Lorem Ipsum</h:b></h:p>
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      </div>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Guayaquil, Ecuador</h:b></h:p>
+       
+       </div>
+      <h:br></h:br>
+      <div class="w3-container w3-white" align="center">
+      	<progressmeter width="90%" value="90" />
+      </div>
+      <h:br></h:br>
+     
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom w3-margin-right" style="
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+    ">
+      <image popup="ctxModal"  src="common/images/img2.jpg"  style="width:70%;    width: 100%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity"></image>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p><h:b>Por: Oscar Obando Cruz</h:b></h:p>
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      </div>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Guayaquil, Ecuador</h:b></h:p>
+       
+       </div>
+      <h:br></h:br>
+      <div class="w3-container w3-white" align="center">
+      	<progressmeter width="90%" value="40" />
+      </div>
+      <h:br></h:br>
+      
+    </div>
+    <div class="w3-third w3-container w3-margin-right" style="border: 1px solid white;
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+   ">
+      <image popup="ctxModal"  src="common/images/img3.jpg"  style="width:70%;    width: 100%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity"></image>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p><h:b>Por: Roberto Poveda</h:b></h:p>
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      </div>
+       <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Guayaquil, Ecuador</h:b></h:p>
+       
+       </div>
+      <h:br></h:br>
+      <div class="w3-container w3-white" align="center">
+      	<progressmeter width="90%" value="7" />
+      </div>
+      <h:br></h:br>
+     
+    </div>
+    
+  </div>
+  
+  
+    <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom w3-margin-right" style="border: 1px solid white;
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+    ">
+      <image popup="ctxModal"  src="common/images/img1.jpg"  style="width:70%;    width: 100%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity"></image>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p style="color:#123456;"><h:b>Por: Lorem Ipsum</h:b></h:p>
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      </div>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Guayaquil, Ecuador</h:b></h:p>
+       
+       </div>
+      <h:br></h:br>
+      <div class="w3-container w3-white" align="center">
+      	<progressmeter width="90%" value="7" />
+      </div>
+      <h:br></h:br>
+    
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom w3-margin-right" style="
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+    ">
+       <image popup="ctxModal"  src="common/images/img2.jpg"  style="width:70%;    width: 100%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity"></image>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p><h:b>Por: Oscar Obando Cruz</h:b></h:p>
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      </div>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Guayaquil, Ecuador</h:b></h:p>
+       
+       </div>
+      <h:br></h:br>
+      <div class="w3-container w3-white" align="center">
+      	<progressmeter width="90%" value="7" />
+      </div>
+      <h:br></h:br>
+     
+    </div>
+    <div class="w3-third w3-container w3-margin-right" style="border: 1px solid white;
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 30%;
+   ">
+       <image popup="ctxModal"  src="common/images/img3.jpg"  style="width:70%;    width: 100%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity"></image>
+      <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p><h:b>Por: Roberto Poveda</h:b></h:p>
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      </div>
+       <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Guayaquil, Ecuador</h:b></h:p>
+       
+       </div>
+      <h:br></h:br>
+      <div class="w3-container w3-white" align="center">
+      	<progressmeter width="90%" value="70" />
+      </div>
+      <h:br></h:br>
+      
+    </div>
+    
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h:h4 id="contact"><h:b>Contact Me</h:b></h:h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <h:p><h:i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></h:i></h:p>
+        <h:p>email@email.com</h:p>
+      </div>
+      <div class="w3-third w3-teal">
+        <h:p><h:i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></h:i></h:p>
+        <h:p>Chicago, US</h:p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <h:p><h:i class="fa fa-phone w3-xxlarge w3-text-light-grey"></h:i></h:p>
+        <h:p>512312311</h:p>
+      </div>
+    </div>
+    <h:hr class="w3-opacity"></h:hr>
+    <h:form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <h:label>Name</h:label>
+        <h:input class="w3-input w3-border" type="text" name="Name" ></h:input>
+      </div>
+      <div class="w3-section">
+        <h:label>Email</h:label>
+        <h:input class="w3-input w3-border" type="text" name="Email" ></h:input>
+      </div>
+      <div class="w3-section">
+        <h:label>Message</h:label>
+        <h:input class="w3-input w3-border" type="text" name="Message" ></h:input>
+      </div>
+      <h:button type="submit" class="w3-button w3-black w3-margin-bottom"><h:i class="fa fa-paper-plane w3-margin-right"></h:i>Send Message</h:button>
+    </h:form>
+  </div>
+  
+  
+   <!-- Footer -->
+  <h:footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h:h3>FOOTER</h:h3>
+      <h:p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</h:p>
+      <h:p>Powered by <h:a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</h:a></h:p>
+    </div>
+  
+    <div class="w3-third">
+      <h:h3>BLOG POSTS</h:h3>
+      <h:ul class="w3-ul w3-hoverable">
+        <h:li class="w3-padding-16">
+          <h:img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px"></h:img>
+          <h:span class="w3-large">Lorem</h:span><h:br></h:br>
+          <h:span>Sed mattis nunc</h:span>
+        </h:li>
+        <h:li class="w3-padding-16">
+          <h:img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px"></h:img>
+          <h:span class="w3-large">Ipsum</h:span><h:br></h:br>
+          <h:span>Praes tinci sed</h:span>
+        </h:li> 
+      </h:ul>
+    </div>
+
+    <div class="w3-third">
+      <h:h3>POPULAR TAGS</h:h3>
+      <h:p>
+        <h:span class="w3-tag w3-black w3-margin-bottom">Travel</h:span> <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">New York</h:span> <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">London</h:span>
+        <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</h:span> <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</h:span> <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</h:span>
+        <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</h:span> <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</h:span> <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</h:span>
+        <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">News</h:span> <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</h:span> <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</h:span>
+        <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</h:span> <h:span class="w3-tag w3-grey w3-small w3-margin-bottom">Games</h:span>
+      </h:p>
+    </div>
+
+  </div>
+  </h:footer>
+  
+  <div class="w3-black w3-center w3-padding-24">Powered by <h:a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</h:a></div>
+
+<!-- End page content -->
+  
+ </div> 
+
+
+
+</div>
+</zk>

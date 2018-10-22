@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="common/css/feature-carousel.css" charset="utf-8" />
+    <script src="common/js/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="common/js/jquery.featureCarousel.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+      $(document).ready(function() {
+        var carousel = $("#carousel").featureCarousel({
+          // include options like this:
+          // (use quotes only for string values, and no trailing comma after last option)
+          // option: value,
+          // option: value
+        });
+
+        $("#but_prev").click(function () {
+          carousel.prev();
+        });
+        $("#but_pause").click(function () {
+          carousel.pause();
+        });
+        $("#but_start").click(function () {
+          carousel.start();
+        });
+        $("#but_next").click(function () {
+          carousel.next();
+        });
+      });
+    </script>
+</head>
+<body >
+ 
+    <div class="carousel-container" style="margin:0 auto;">
+    
+      <div id="carousel">
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="https://media.springernature.com/lw900/springer-static/image/art%3A10.1038%2Fs41526-017-0028-6/MediaObjects/41526_2017_28_Fig2_HTML.jpg"></a>
+          <div class="carousel-caption">
+            <p>
+              This area is typically used to display captions associated with the images. They are set to hide and fade in on rotation.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="common/images/img2.jpg"></a>
+          <div class="carousel-caption">
+            <p>
+              The background will expand up or down to fit the caption.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="common/images/img3.jpg"></a>
+          <div class="carousel-caption">
+            <p>
+              Images can be placed here as well.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="common/images/mundo.jpg"></a>
+        </div>
+        <div class="carousel-feature">
+          <a href="#"><img class="carousel-image" alt="Image Caption" src="common/images/nasa_exp.jpg"></a>
+          <div class="carousel-caption">
+            <p>
+              The background color of the caption area can be changed using CSS. The opacity can be changed in the options, but it will also change the opacity of the text.
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div id="carousel-left"><img src="common/images/arrow-left.png" /></div>
+      <div id="carousel-right"><img src="common/images/arrow-right.png" /></div>
+    </div>
+</body>
+</html>

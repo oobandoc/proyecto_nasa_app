@@ -1,0 +1,15 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<window border="none" width="80%" height="90%"  apply="org.zkoss.bind.BindComposer" 
+viewModel="@id('vm') @init('ec.com.itsg.LoadVideoControl')" id="winVideo">
+<div align="right" style="background-color:#123456;">
+	<image src="/common/images/close_x.png" onClick="@command('cerrar')"></image>
+</div>
+<iframe width="100%" height="90%"
+src="@load(vm.url)">
+</iframe>
+<div align="center" style="background-color:#123456;color:white;" height="10%">
+	<label style="font-size:15px;" value="Derechos Reservados Instituto Tecnologico Superior Guayaquil ITSG."></label>
+</div>
+</window>
+</zk>

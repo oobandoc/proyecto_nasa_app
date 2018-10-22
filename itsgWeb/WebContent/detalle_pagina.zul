@@ -1,0 +1,198 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk xmlns:h="http://www.w3.org/1999/xhtml">
+<style src="https://www.w3schools.com/w3css/4/w3.css"></style>
+<style src="https://fonts.googleapis.com/css?family=Raleway"></style>
+<style src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></style>
+<style src="https://fonts.googleapis.com/css?family=Tangerine"></style>
+
+<style src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:20px;margin-right:50px;">
+	<!-- Header -->
+  <h:header id="portfolio">
+    <h:a href="#"><h:img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></h:img></h:a>
+    <h:span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><h:i class="fa fa-bars"></h:i></h:span>
+   <div>
+    	 <image src="common/images/itsg.jpg" style="width:150px;height:150px;float:left;" class="w3-round"></image><h:br></h:br><h:br></h:br>
+    	<h:p class="w3-jumbo" style="float:left;margin-left:100px;font-family: Tangerine, serif;">Te Presentamos Nuestros Poryectos</h:p>
+    </div>
+    <div class="w3-container">
+    
+    <h:br></h:br>
+    <h:center>
+    <div class="w3-section w3-bottombar w3-padding-16" >
+     
+      <h:button class="w3-button w3-red">Regresar</h:button>
+     
+    </div>
+    </h:center>
+    </div>
+  </h:header>
+
+	
+	<div class="w3-row-padding">
+	
+		 <div class="w3-twothird w3-container w3-margin-bottom " style="border: 1px solid white;
+    padding: 23px;
+    background: #ffffff;
+    border-radius: 10px;
+    ">
+    
+    <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p style="color:#123456;"><h:b>Por: Lorem Ipsum</h:b></h:p>
+      <image popup="ctxModal"  src="common/images/img1.jpg"  style="width:70%;    height: 70%;
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity"></image>
+    
+    <h:br></h:br>
+    <h:br></h:br>
+    
+     <div class="w3-container w3-white">
+      <h:br></h:br>
+       
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">
+        	La donación de sangre es una necesidad social. Para abastecer las necesidades de nuestra Comunidad son necesarias unas 40 donaciones por cada 1000 habitantes y año.
+
+La donación de sangre en nuestro país es altruista y no remunerada, lo que quiere decir que no se paga por donar.
+
+Este principio tiene como fin principal aumentar la seguridad transfusional de la sangre que vamos a transfundir.
+
+¿Por qué debemos donar sangre?
+Hay tres motivos muy importantes para  donar:
+
+La sangre no se puede fabricar.  Sólo se puede obtener de donantes como usted.
+La sangre es imprescindible para operaciones y urgencias.
+La sangre caduca, y no se puede almacenar por un tiempo indefinido.
+¿Cómo me debo preparar para donar sangre?
+Duerma bien la noche anterior a la donación, acuda tras haber ingerido una comida pobre en  grasas, – nunca en ayunas-  y evite fumar desde al menos una hora antes de la donación.
+
+Si tienen tendencia a tener niveles bajos de hierro, puede prepararse tomando alimentos ricos, como carnes rojas, hígado, pescado y huevos. También las legumbres y frutos secos son ricos en este nutriente.
+
+¿En qué consiste el proceso de donación?
+El proceso donación tiene varias fases:
+
+Lectura de información sobre la donación y aspectos legales de la misma.
+Cumplimentación del formulario de entrevista médica y autorización para la donación. (Consentimiento informado).
+Examen médico y entrevista.
+Prueba para la detección de anemia.
+Donación propiamente dicha.
+Recuperación y refrigerio.
+        </h:p>
+      </div>
+      
+       <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Misión</h:b></h:p>
+       
+       </div>
+    
+    <h:br></h:br>
+    
+      <image popup="ctxModal"  src="common/images/img2.jpg"  style="width:60%;   
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity"></image>
+    
+    <div class="w3-container w3-white">
+      <h:br></h:br>
+       
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">
+        	La donación de sangre es una necesidad social. Para abastecer las necesidades de nuestra Comunidad son necesarias unas 40 donaciones por cada 1000 habitantes y año.
+
+La donación de sangre en nuestro país es altruista y no remunerada, lo que quiere decir que no se paga por donar.
+
+Este principio tiene como fin principal aumentar la seguridad transfusional de la sangre que vamos a transfundir.
+
+¿Por qué debemos donar sangre?
+Hay tres motivos muy importantes para  donar:
+
+La sangre no se puede fabricar.  Sólo se puede obtener de donantes como usted.
+La sangre es imprescindible para operaciones y urgencias.
+La sangre caduca, y no se puede almacenar por un tiempo indefinido.
+¿Cómo me debo preparar para donar sangre?
+Duerma bien la noche anterior a la donación, acuda tras haber ingerido una comida pobre en  grasas, – nunca en ayunas-  y evite fumar desde al menos una hora antes de la donación.
+
+Si tienen tendencia a tener niveles bajos de hierro, puede prepararse tomando alimentos ricos, como carnes rojas, hígado, pescado y huevos. También las legumbres y frutos secos son ricos en este nutriente.
+
+¿En qué consiste el proceso de donación?
+El proceso donación tiene varias fases:
+
+Lectura de información sobre la donación y aspectos legales de la misma.
+Cumplimentación del formulario de entrevista médica y autorización para la donación. (Consentimiento informado).
+Examen médico y entrevista.
+Prueba para la detección de anemia.
+Donación propiamente dicha.
+Recuperación y refrigerio.
+        </h:p>
+      </div>
+    
+    
+     <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Objetivo</h:b></h:p>
+       
+       </div>
+    
+     <image popup="ctxModal"  src="common/images/img3.jpg"  style="width:60%; 
+    border-radius: 10px;
+    padding: 5px;" class="w3-hover-opacity"></image>
+    
+    
+    <div class="w3-container w3-white">
+      <h:br></h:br>
+       
+        <h:p style="color:#189AF3;background-color:#EBF8F9;font-weight:bold;">
+        	La donación de sangre es una necesidad social. Para abastecer las necesidades de nuestra Comunidad son necesarias unas 40 donaciones por cada 1000 habitantes y año.
+
+La donación de sangre en nuestro país es altruista y no remunerada, lo que quiere decir que no se paga por donar.
+
+Este principio tiene como fin principal aumentar la seguridad transfusional de la sangre que vamos a transfundir.
+
+¿Por qué debemos donar sangre?
+Hay tres motivos muy importantes para  donar:
+
+La sangre no se puede fabricar.  Sólo se puede obtener de donantes como usted.
+La sangre es imprescindible para operaciones y urgencias.
+La sangre caduca, y no se puede almacenar por un tiempo indefinido.
+¿Cómo me debo preparar para donar sangre?
+Duerma bien la noche anterior a la donación, acuda tras haber ingerido una comida pobre en  grasas, – nunca en ayunas-  y evite fumar desde al menos una hora antes de la donación.
+
+Si tienen tendencia a tener niveles bajos de hierro, puede prepararse tomando alimentos ricos, como carnes rojas, hígado, pescado y huevos. También las legumbres y frutos secos son ricos en este nutriente.
+
+¿En qué consiste el proceso de donación?
+El proceso donación tiene varias fases:
+
+Lectura de información sobre la donación y aspectos legales de la misma.
+Cumplimentación del formulario de entrevista médica y autorización para la donación. (Consentimiento informado).
+Examen médico y entrevista.
+Prueba para la detección de anemia.
+Donación propiamente dicha.
+Recuperación y refrigerio.
+        </h:p>
+      </div>
+    
+	</div>
+	
+	
+    
+	
+	<div class="w3-rest w3-container w3-margin-bottom" style="border: 1px solid white;
+    padding: 23px;
+    background: #000000;
+    border-radius: 10px;
+    ">
+	      
+       <div class="w3-container w3-white">
+      <h:br></h:br>
+       <h:p style="color:#123456;"><h:b>Proyecto de Pruebas 1</h:b></h:p>
+        <h:p style="color:#123456;"><h:b>Por: Lorem Ipsum</h:b></h:p>
+             </div>
+       
+       
+    
+	</div>
+	</div>
+
+</div>
+</zk>
